@@ -1,4 +1,3 @@
-# ePortfolio Machine Learning by Ben Zapka:
 ## Units 1 - 3:
 The first collaborative discussion considered the impact an outage of an information system has, taking economic costs, reputational costs and the implication it has on customers into consideration.
 My initial post and the summary can be found here, while my two responses to the contributions of other can be accessed here.
