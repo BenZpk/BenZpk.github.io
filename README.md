@@ -1,20 +1,51 @@
-# Hydejack Starter Kit
+# ePortfolio Machine Learning by Ben Zapka:
+## Units 1 - 3:
+The first collaborative discussion considered the impact an outage of an information system has, taking economic costs, reputational costs and the implication it has on customers into consideration.
+My initial post and the summary can be found here, while my two responses to the contributions of other can be accessed here.
+During my own research as well as while I read the work of my fellow students, I gained additional insights into the risks associated to the interconnectivity of devices. This raised ethical concerns and let me think about how to mitigate these issues. While I was able to come up with several own thoughts on the topic, especially the reading of the contributions of others managed to add depth to my considerations on the topic as others approached the task slightly different than I did, adding more ideas.
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+## Unit 2:
+As preparation for the unit 2 seminar, I conducted an EDA tutorial. The resulting file can be accessed here.
+Here, I was first guided through the whole EDA process and then, in a second step, conducted an EDA on my own, following a defined approach. While I was already used to the EDA process, it helped refresh my knowledge and get even more comfortable with this approach.
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+## Unit 3:
+In this unit, I worked through several Jupyter Notebooks considering the topics correlation and regression, this way getting an even better understanding of the theory behind both which was taught in the lecture cast and the reading. I also played around with some of the variables in the Jupyter Notebooks which enabled me to see the effects of this on the outcomes. The resulting files can be accessed here.
+While I was already acquainted to working with correlations and regressions and the concepts were just already known, it was my first time calculating them in Python as I previously only used R for statistical analysis. Thus, these tasks enabled me to put the theoretic knowledge I already had and expanded during the unit to praxis using Python. I this way was able to expand my skills I supply as a Data Scientist.
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+## Unit 4:
+In the preparation for this unit’s seminar, I conducted multiple linear regressions on my own. The resulting file can be accessed here.
+This further helped apply my theoretical knowledge in praxis using Python. Furthermore, a process I was not familiar with before is the process of estimating a linear regression for categorical values. This is a task that I learned new within these exercises. I immediately saw how useful this additional method is as I used it to estimate regression coefficients for the influence that specific regions within New York have on the pricing, answering an important part of the business question we chose in the unit 6 group assignment. Just as it was useful in this group project, it will also prove helpful for my future work as Data Scientist.
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
+## Unit 5:
+In unit 5, the unsupervised learning technique clustering was introduced, especially the K Means Clustering method. Adding on the background supplied by the lecture cast and the readings, in a wiki exercise I plotted the algorithmic logic behind the K Means Clustering method. The resulting file can be accessed here.
+This enabled me to get an even deeper understanding how the algorithm behind K Means Clustering works, also enabling me to spot important limitations of using this algorithm which I will keep in mind when choosing the best clustering algorithm for a given use case.
+In an additional exercise, I calculated Jaccard Coefficients for different pairs of individuals given their pathological test results. The resulting file can be accessed here. 
+This task enabled me to see how the Jaccard Coeffiecient differs given different levels of similarity of the data for two indivisuals, once again putting the learned theory to use in a practical use case.
 
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+## Unit 6:
+In this unit, the first graded assignment was due. Together with my team I submitted a report on how different factors (i.e., […]) influence the price of an Airbnb listing in New York. The final submissions can be accessed here.
+Over the weeks, we collaborated as a team towards this final submission. This way, I learned how to digitally work together as a team in a Data Science project. We split up tasks, agreed on deadlines and were able to incorporate both interests and skills of each team member into our project planning. All this is documented in our project documentation that can be accessed here. Furthermore, I was also able to develop new Data Science skills throughout the project. As I handled the geographical analysis, i.e., how the different locations within New York influence the price, I put together an interesting visualisation of prices pinned by location using Geopandas. This sort of visualisation was new to me in Python as I was used to working with Tableau or Power BI to create such visualisations. This way I learned to conduct it using Python, adding another skill as a Data Scientist.
+For the unit 6 seminar, I solved different K Means Clustering tasks that can be accessed here.
+Once again, this task allowed me to use the theoretical knowledge I already had and extended during the unit in practice. Furthermore, it also again showed some of the limitations the K Means Clustering method has, e.g., the difficulty to choose the correct number of classes to classify for.
+
+## Unit 7:
+Unit 7 introduced the concept of Artificial Neural Networks (ANNs). These mimic the biology of the human brain to solve more complex tasks. In an exercise, I worked through three different Jupyter Notebooks presenting different ANNs. I once again made changes to some of the parameters to analyse how this changes the outputs. The resulting file can be accessed here.
+This again gave me a better understanding of the theoretical concepts behind ANNs introduced in the lecture cast and in the readings. As this concept is completely new to me, I needed to put some more effort into understanding it than for the concepts before.
+
+## Unit 8:
+This unit focused on two main topics. On one hand, a more detailed overview into the training of artificial neural networks, i.e. via the process of backpropagation, was given. Here, in an exercise I worked through a Jupyter Notebook, aiming at understanding the interplay of learning rate and number of iterations for a gradient descend cost function. My findings and thoughts on this can be accessed here. This helped me get an even deeper understanding in the inner workings of artificial neural networks and how several parameters must be kept in mind when ensuring high performance at minimal costs. This is a skill that is applicable to every training of neural networks I will conduct in my present and future as Data Scientist.
+On the other hand, this unit the second collaborative discussion started. It circled around ethical implication of the usage of AI, i.e. large language models, for writing. My initial post on this topic can be accessed here. The creation of this post was associated with reading several academic papers considering this topic and my critical evaluation of these. This helped me get a better understanding of several ethical perspectives on this topic, considering both benefits and concerns.
+
+## Unit 9:
+Now, Convolutional Neural Networks (CNNs) are introduced, neural networks that are especially helpful when classifying images or detecting objects in images. In an exercise I worked through a Jupyter Notebook. Here, a CNN was coded step by step, enabling a better understanding of its components and how they are coded. By switching the input image and comparing the results, I saw how the model’s output looks like. The final results of my examinations of this Jupyter Notebook file can be accessed here. Furthermore, this unit entailed the peer responses for the collaborative discussion that started in unit 8. By examining the works of other students, I learned about some additional benefits and challenges of the usage of GenAI in writings which others came up with and I did not think about before. In my two peer responses, I aimed at providing others with some ideas that could enhance their contributions to the discussion. My responses can be accessed here and here.
+
+## Unit 10:
+This unit delivered some more depth to my understanding of CNNs. In an interactive visualisation of the CNN layers and how they interplay, I learned more about how a CNN comes up with a classification. Testing the given CNN with own images either belonging to the classes the model was trained on or not, I also received additional insights on how the model derives classes based on proximity to the training images. Some important realisations were made during this process which are documented here. Furthermore, in this unit I finalised the second collaborative discussion with a summary post that can be accessed here. Summing up my own thoughts as well as the responses by my peers again enabled me to reflect on the general topic of using LLM for writings and deepened my thoughts on this topic additionally.
+I can now use this knowledge to put together my own CNN for the image classification problem in the graded assignment in unit 11. Furthermore, in my work as Data Scientist I can put together my own CNN whenever necessary and possess a better understanding of its inner workings which is necessary whenever interpretating the results of a CNN in practice. This way, this unit once again enhanced my abilities as Data Scientist.
+
+## Unit 11:
+This unit focuses on the evaluation of neural networks and the resulting choice for the most performant model. In an e-portfolio activity, I worked through different options of measuring the performance for different machine learning algorithms, i.e., regressions and classifications. I analysed the effect that adjustments of different parameters had on the evaluating metrics. The results of this can be accessed here. This exercise also delivered me additional inputs for the second graded assignment of the module which was also due in this unit by informing my choice of evaluation metrics and visualisations used to communicate the training, validation and testing results of the neural network. In this graded assignment I created a 20 minute presentation about the training and evaluation of a Convolutional Neural Network for the classification of the CIFAR-10 dataset. The video of the presentation can be accessed here, the transcript here, the slides here and the Jupyter Notebook that contains the underlying code here. During this whole module, I have learned a lot about neural networks, especially about Convolutional Neural Networks. However, finally not just understanding already existing Jupyter Notebooks that present a neural network but really putting together an own neural network with all necessary steps really improved my understanding of the underlying concepts and my confidence in applying them. Outweighing different concepts and choosing the best fit for a given use case is a skill highly needed in practice and I thus believe that this exercise was especially helpful in my path to become a Data Scientist.
+
+## Unit 12:
+This unit focused on the future of machine learning. In the seminar preparation, I read an academic article and based on this discussed the use case for predictive prognostic machine learning models in chemical manufacturing and its emergence due to Industry 4.0 and the interconnectivity of smart devices via sensors. My discussion of this topic can be accessed here.
+This final task gave some examples of how machine learning models can be used in a professional work environment and benefits as well as limitations were worked out in a critical discussion. This motivates the further development of ideas on how to use machine learning in my own daily work and in my company`s industry. This ideation is generally intriguing and it is beneficial for my journey as Data Scientist from here on to consider where certain technologies and models can be used to create business value. This ideation always at all times makes a consideration of advantages and limitations necessary, just as carried out in this task.
